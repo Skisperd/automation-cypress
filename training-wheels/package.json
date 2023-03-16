@@ -1,0 +1,19 @@
+{
+  "name": "training-wheels",
+  "version": "1.0.0",
+  "description": "Projeto para manipular Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "training-wheels"
+  ],
+  "author": "Tiago Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.8.0"
+  }
+}
