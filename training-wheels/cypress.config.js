@@ -5,5 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    testIsolation: false,
+    baseUrl: 'https://training-wheels-qaninja.herokuapp.com',
   },
-});
+})
