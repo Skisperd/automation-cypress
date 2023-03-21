@@ -14,6 +14,7 @@
   "author": "Tiago Dias",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.8.0"
+    "cypress": "^12.8.0",
+    "cypress-real-events": "^1.7.6"
   }
 }
