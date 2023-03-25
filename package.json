@@ -1,0 +1,25 @@
+{
+  "name": "samuraibs",
+  "version": "1.0.0",
+  "description": "Projeto para cypress",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs"
+  ],
+  "author": "Tiago Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "moment": "^2.29.1",
+    "pg": "^8.7.3",
+    "underscore": "^1.13.2"
+  }
+}
