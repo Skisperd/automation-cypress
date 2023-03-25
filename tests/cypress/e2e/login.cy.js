@@ -7,8 +7,8 @@ describe('login', function () {
     context('quando o usuário é muito bom', function () {
 
         const user = {
-            name: 'Robson Jassa',
-            email: 'jassa@samuraibs.com',
+            name: 'Tiago Dias',
+            email: 'tf.oliveira@samuraibs.com',
             password: 'pwd123',
             is_provider: true
         }
@@ -29,8 +29,8 @@ describe('login', function () {
     context('quando o usuário é bom mas a senha está incorreta', function () {
 
         let user = {
-            name: 'Celso Kamura',
-            email: 'kamura@samuraibs.com',
+            name: 'Felipe Dias',
+            email: 'tf.dias@samuraibs.com',
             password: 'pwd123',
             is_provider: true
         }
