@@ -24,6 +24,6 @@ module.exports = defineConfig({
     defaultCommandTimeout: 30000,
     viewportWidth: 1440,
     viewportHeight: 900,
-    projectId: "tbhhim"
+    projectId: "osar2q"
   },
 });
