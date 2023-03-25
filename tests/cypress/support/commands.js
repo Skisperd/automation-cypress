@@ -25,7 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import moment from 'moment'
 
-import { apiServer } from '../../cypress.json'
+import { apiServer } from '../../cypress.config'
 import loginPage from './pages/login'
 import dashPage from './pages/dash'
 
