@@ -8,10 +8,6 @@ class DashPage {
         this.header = header
     }
 
-    exitButtonClick() {
-        cy.get(el.exitButton).click()
-    }
-
     calendarShoudlBeVisible() {
         cy.get(el.calendar)
             .should('be.visible')

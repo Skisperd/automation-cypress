@@ -16,24 +16,14 @@ module.exports = defineConfig({
       if (config.isTextTerminal) {
         console.log('cypress run!')
       }
-      
-      on("task", {
-        removeUser(email) {
-          return new Promise(function (resolve) {
-            pool.query('DELETE FROM public.users WHERE email = $1', [email], function(error, result) {
-              if (error) {
-                throw error
-              }
-              resolve({ success: result })
-            })
-          })
-        },
-      })
     },
     testIsolation: false, //false = mesma sessão
-    baseUrl: 'http://localhost:3000',
+    apiServer: "https://samuraibs-api-tiago.fly.dev",
+    baseUrl: 'https://samuraibs-web-tiago.fly.dev',
     chromeWebSecurity: false,
+    defaultCommandTimeout: 30000,
     viewportWidth: 1440,
-    viewportHeight: 900
+    viewportHeight: 900,
+    projectId: "tbhhim"
   },
 });

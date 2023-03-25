@@ -1,3 +1,4 @@
+
 import { el } from './elements'
 
 class Toast {

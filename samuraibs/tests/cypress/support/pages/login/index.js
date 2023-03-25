@@ -1,7 +1,7 @@
+
 import { el } from './elements'
 import toast from '../../components/toast'
 import alert from '../../components/alert'
-
 
 class LoginPage {
 
@@ -20,17 +20,16 @@ class LoginPage {
     form(user) {
         cy.get(el.email)
             .clear()
-            .type(user.email)
+            .type(user.email)            
         cy.get(el.password)
             .clear()
             .type(user.password)
     }
 
     submit() {
-        cy.contains(el.submitButton)
+        cy.contains(el.signIn)
             .click()
     }
-
 }
 
 export default new LoginPage()

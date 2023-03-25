@@ -1,3 +1,4 @@
+
 import { el } from './elements'
 
 import toast from '../../components/toast'
@@ -26,7 +27,6 @@ class SignupPage {
     submit() {
         cy.contains(el.signupButton).click()
     }
-    
 }
 
 export default new SignupPage()
