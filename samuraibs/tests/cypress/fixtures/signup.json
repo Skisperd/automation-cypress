@@ -1,0 +1,23 @@
+{
+    "success": {
+      "name": "Tiago Dias",
+      "email": "tf@connectionSystem.com",
+      "password": "pwd123"
+    },
+    "email_dup": {
+      "name": "Tiago Dias",
+      "email": "tf.dias@connectionSystem.com",
+      "password": "pwd123",
+      "is_provider": true
+    },
+    "email_inv": {
+      "name": "Tiago Dias",
+      "email": "tf.dias@",
+      "password": "pwd123"
+    },
+    "short_password": {
+      "name": "Tiago Dias",
+      "email": "tf.dias@connectionSystem.com",
+      "password": null
+    }
+  }

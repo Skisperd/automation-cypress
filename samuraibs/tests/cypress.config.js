@@ -30,7 +30,7 @@ module.exports = defineConfig({
         },
       })
     },
-    testIsolation: false,
+    testIsolation: false, //false = mesma sessão
     baseUrl: 'http://localhost:3000',
     chromeWebSecurity: false,
     viewportWidth: 1440,
