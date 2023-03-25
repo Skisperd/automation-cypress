@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://samuraibs-web-papito.herokuapp.com",
+    "apiServer": "https://samuraibs-api-papito.herokuapp.com",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "defaultCommandTimeout": 30000,
+    "dbConfig": {
+        "host": "babar.db.elephantsql.com",
+        "user": "kxoyfbqk",
+        "password": "D6E2fSF-J9ypRLza8XLG1R9ot7kxfoYS",
+        "database": "kxoyfbqk",
+        "port": 5432
+    }
+}
